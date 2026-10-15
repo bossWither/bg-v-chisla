@@ -1,0 +1,65 @@
+{
+  "title": "Къде се намира България в Европейския съюз?",
+  "source": {
+    "name": "Eurostat (Европейска статистическа служба)",
+    "dataset": "GDP per capita in PPS & Actual individual consumption (prc_ppp_ind)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/prc_ppp_ind/default/table?lang=en",
+    "lastVerified": "2026-06-25"
+  },
+  "indicators": [
+    {
+      "id": "gdp_pps",
+      "name": "БВП на човек от населението по ППС",
+      "shortName": "БВП по ППС",
+      "unit": "% от средното за ЕС (ЕС-27 = 100)",
+      "period": "2025/2026 г.",
+      "euAverage": 100,
+      "bulgariaValue": 68,
+      "description": "Брутният вътрешен продукт по паритет на покупателната способност (ППС) отчита реалния обем на икономиката, елиминирайки разликите в цените.",
+      "explanation": "Показва икономическото производство на глава от населението. През 2007 г. при приемането ни в ЕС България беше на 44%, докато днес достига 68%.",
+      "whatItDoesNotShow": "БВП не е разполагаем доход. В държави с много чужди корпорации (като Ирландия) част от БВП не остава в местните семейства."
+    },
+    {
+      "id": "aic_pps",
+      "name": "Действително индивидуално потребление (AIC)",
+      "shortName": "Реално потребление (AIC)",
+      "unit": "% от средното за ЕС (ЕС-27 = 100)",
+      "period": "2025/2026 г.",
+      "euAverage": 100,
+      "bulgariaValue": 76,
+      "description": "AIC (Actual Individual Consumption) отчита всички стоки и услуги, които домакинствата реално потребяват — храна, жилище, транспорт и обществени услуги.",
+      "explanation": "Счита се за по-точен измерител за стандарта на живот от БВП. По този показател България достига 76% от средното за ЕС, изпреварвайки Унгария (71%) и доближавайки Хърватия (77%) и Словакия (77%).",
+      "whatItDoesNotShow": "Показателят е осреднен за страната и не отразява вътрешните разлики между големите градове и по-малките населени места."
+    }
+  ],
+  "countries": [
+    { "code": "LU", "name": "Люксембург", "gdp_pps": 238, "aic_pps": 137, "isBulgaria": false },
+    { "code": "IE", "name": "Ирландия", "gdp_pps": 210, "aic_pps": 95, "isBulgaria": false },
+    { "code": "NL", "name": "Нидерландия", "gdp_pps": 130, "aic_pps": 114, "isBulgaria": false },
+    { "code": "DK", "name": "Дания", "gdp_pps": 127, "aic_pps": 111, "isBulgaria": false },
+    { "code": "AT", "name": "Австрия", "gdp_pps": 123, "aic_pps": 116, "isBulgaria": false },
+    { "code": "BE", "name": "Белгия", "gdp_pps": 116, "aic_pps": 115, "isBulgaria": false },
+    { "code": "DE", "name": "Германия", "gdp_pps": 114, "aic_pps": 116, "isBulgaria": false },
+    { "code": "SE", "name": "Швеция", "gdp_pps": 111, "aic_pps": 109, "isBulgaria": false },
+    { "code": "FI", "name": "Финландия", "gdp_pps": 107, "aic_pps": 106, "isBulgaria": false },
+    { "code": "MT", "name": "Малта", "gdp_pps": 104, "aic_pps": 101, "isBulgaria": false },
+    { "code": "FR", "name": "Франция", "gdp_pps": 101, "aic_pps": 107, "isBulgaria": false },
+    { "code": "EU27", "name": "Средно за ЕС-27", "gdp_pps": 100, "aic_pps": 100, "isAverage": true, "isBulgaria": false },
+    { "code": "IT", "name": "Италия", "gdp_pps": 98, "aic_pps": 100, "isBulgaria": false },
+    { "code": "CY", "name": "Кипър", "gdp_pps": 96, "aic_pps": 96, "isBulgaria": false },
+    { "code": "SI", "name": "Словения", "gdp_pps": 92, "aic_pps": 88, "isBulgaria": false },
+    { "code": "CZ", "name": "Чехия", "gdp_pps": 91, "aic_pps": 84, "isBulgaria": false },
+    { "code": "ES", "name": "Испания", "gdp_pps": 90, "aic_pps": 89, "isBulgaria": false },
+    { "code": "LT", "name": "Литва", "gdp_pps": 87, "aic_pps": 86, "isBulgaria": false },
+    { "code": "PL", "name": "Полша", "gdp_pps": 84, "aic_pps": 88, "isBulgaria": false },
+    { "code": "PT", "name": "Португалия", "gdp_pps": 83, "aic_pps": 86, "isBulgaria": false },
+    { "code": "EE", "name": "Естония", "gdp_pps": 81, "aic_pps": 79, "isBulgaria": false },
+    { "code": "RO", "name": "Румъния", "gdp_pps": 80, "aic_pps": 90, "isBulgaria": false },
+    { "code": "HR", "name": "Хърватия", "gdp_pps": 77, "aic_pps": 77, "isBulgaria": false },
+    { "code": "HU", "name": "Унгария", "gdp_pps": 75, "aic_pps": 71, "isBulgaria": false },
+    { "code": "SK", "name": "Словакия", "gdp_pps": 74, "aic_pps": 77, "isBulgaria": false },
+    { "code": "LV", "name": "Латвия", "gdp_pps": 72, "aic_pps": 76, "isBulgaria": false },
+    { "code": "BG", "name": "България", "gdp_pps": 68, "aic_pps": 76, "isBulgaria": true },
+    { "code": "EL", "name": "Гърция", "gdp_pps": 67, "aic_pps": 78, "isBulgaria": false }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "indicator": "Сравнение между темпа на нарастване на средната заплата и инфлацията (ИПЦ)",
+  "shortTitle": "Заплати спрямо цени",
+  "baseYear": 2015,
+  "baseValue": 100,
+  "unitEUR": "€ / месец (бруто)",
+  "unitBGN": "лв. / месец (бруто)",
+  "source": {
+    "name": "Национален статистически институт (НСИ)",
+    "dataset": "Средна брутна работна заплата на наетите лица & Индекси на потребителските цени (ИПЦ)",
+    "url": "https://www.nsi.bg/bg/content/3928/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%BE-%D0%BD%D0%B8%D0%B2%D0%BE",
+    "lastVerified": "2026-09-15"
+  },
+  "methodologicalNote": "За обективно сравнение заплатите и индексът на потребителските цени (ИПЦ) са приравнени към базова 2015 г. = 100. Стойностите в евро (€) са изчислени по официалния фиксиран курс 1 EUR = 1.95583 BGN. Реалната покупателна способност измерва колко повече стоки и услуги реално може да си позволи едно домакинство след отчитане на инфлацията.",
+  "series": [
+    {
+      "year": 2015,
+      "periodLabel": "2015 г.",
+      "nominalWageBGN": 878,
+      "nominalWageEUR": 449,
+      "wageIndex": 100.0,
+      "cpiIndex": 100.0,
+      "realWageIndex": 100.0,
+      "annualInflation": -0.1,
+      "purchasingBreadLoaves": 680,
+      "purchasingFuelLiters": 315
+    },
+    {
+      "year": 2016,
+      "periodLabel": "2016 г.",
+      "nominalWageBGN": 948,
+      "nominalWageEUR": 485,
+      "wageIndex": 108.0,
+      "cpiIndex": 99.2,
+      "realWageIndex": 108.9,
+      "annualInflation": -0.8,
+      "purchasingBreadLoaves": 735,
+      "purchasingFuelLiters": 370
+    },
+    {
+      "year": 2017,
+      "periodLabel": "2017 г.",
+      "nominalWageBGN": 1037,
+      "nominalWageEUR": 530,
+      "wageIndex": 118.1,
+      "cpiIndex": 101.3,
+      "realWageIndex": 116.6,
+      "annualInflation": 2.1,
+      "purchasingBreadLoaves": 780,
+      "purchasingFuelLiters": 395
+    },
+    {
+      "year": 2018,
+      "periodLabel": "2018 г.",
+      "nominalWageBGN": 1146,
+      "nominalWageEUR": 586,
+      "wageIndex": 130.5,
+      "cpiIndex": 104.1,
+      "realWageIndex": 125.4,
+      "annualInflation": 2.8,
+      "purchasingBreadLoaves": 840,
+      "purchasingFuelLiters": 415
+    },
+    {
+      "year": 2019,
+      "periodLabel": "2019 г.",
+      "nominalWageBGN": 1267,
+      "nominalWageEUR": 648,
+      "wageIndex": 144.3,
+      "cpiIndex": 107.3,
+      "realWageIndex": 134.5,
+      "annualInflation": 3.1,
+      "purchasingBreadLoaves": 910,
+      "purchasingFuelLiters": 450
+    },
+    {
+      "year": 2020,
+      "periodLabel": "2020 г.",
+      "nominalWageBGN": 1387,
+      "nominalWageEUR": 709,
+      "wageIndex": 158.0,
+      "cpiIndex": 109.1,
+      "realWageIndex": 144.8,
+      "annualInflation": 1.7,
+      "purchasingBreadLoaves": 975,
+      "purchasingFuelLiters": 560
+    },
+    {
+      "year": 2021,
+      "periodLabel": "2021 г.",
+      "nominalWageBGN": 1530,
+      "nominalWageEUR": 782,
+      "wageIndex": 174.3,
+      "cpiIndex": 112.7,
+      "realWageIndex": 154.7,
+      "annualInflation": 3.3,
+      "purchasingBreadLoaves": 1030,
+      "purchasingFuelLiters": 530
+    },
+    {
+      "year": 2022,
+      "periodLabel": "2022 г.",
+      "nominalWageBGN": 1768,
+      "nominalWageEUR": 904,
+      "wageIndex": 201.4,
+      "cpiIndex": 129.9,
+      "realWageIndex": 155.0,
+      "annualInflation": 15.3,
+      "purchasingBreadLoaves": 960,
+      "purchasingFuelLiters": 420
+    },
+    {
+      "year": 2023,
+      "periodLabel": "2023 г.",
+      "nominalWageBGN": 2012,
+      "nominalWageEUR": 1029,
+      "wageIndex": 229.2,
+      "cpiIndex": 142.2,
+      "realWageIndex": 161.2,
+      "annualInflation": 9.5,
+      "purchasingBreadLoaves": 1020,
+      "purchasingFuelLiters": 575
+    },
+    {
+      "year": 2024,
+      "periodLabel": "2024 г.",
+      "nominalWageBGN": 2296,
+      "nominalWageEUR": 1174,
+      "wageIndex": 261.5,
+      "cpiIndex": 146.5,
+      "realWageIndex": 178.5,
+      "annualInflation": 2.8,
+      "purchasingBreadLoaves": 1130,
+      "purchasingFuelLiters": 650
+    },
+    {
+      "year": 2025,
+      "periodLabel": "2025 г.",
+      "nominalWageBGN": 2580,
+      "nominalWageEUR": 1319,
+      "wageIndex": 293.8,
+      "cpiIndex": 151.2,
+      "realWageIndex": 194.3,
+      "annualInflation": 3.2,
+      "purchasingBreadLoaves": 1240,
+      "purchasingFuelLiters": 720
+    },
+    {
+      "year": 2026,
+      "periodLabel": "2026 г. (Q2/Q3)",
+      "nominalWageBGN": 2785,
+      "nominalWageEUR": 1424,
+      "wageIndex": 317.2,
+      "cpiIndex": 155.8,
+      "realWageIndex": 203.6,
+      "annualInflation": 3.0,
+      "purchasingBreadLoaves": 1310,
+      "purchasingFuelLiters": 770
+    }
+  ],
+  "periods": [
+    { "id": "all", "label": "Целият период (2015–2026)", "start": 2015, "end": 2026 },
+    { "id": "pre-inflation", "label": "Спокойният ръст (2015–2020)", "start": 2015, "end": 2020 },
+    { "id": "inflation-shock", "label": "Инфлационният шок (2020–2023)", "start": 2020, "end": 2023 },
+    { "id": "recent-years", "label": "Последните години (2023–2026)", "start": 2023, "end": 2026 }
+  ],
+  "insights": {
+    "all": "От 2015 г. до средата на 2026 г. средната месечна заплата нараства от 449 € (878 лв.) до 1 424 € (2 785 лв.) — ръст от +217.2%. В същия период цените в магазините се покачват с +55.8%. Това означава, че реалната покупателна способност на българина на практика се е удвоила (+103.6%) за 11 години.",
+    "pre-inflation": "В периода 2015–2020 г. инфлацията беше минимална (под 2% годишно), което позволи почти всяко левче и евро от повишените заплати да се усети пряко в по-пълен семеен бюджет (+44.8% реална сила).",
+    "inflation-shock": "През 2022 г. ценовият шок от 15.3% заличи част от ръста — тогава заплатите наваксваха галопиращите сметки за ток, газ и храни. Реалният ръст замръзна на скромните +0.2%.",
+    "recent-years": "След преминаването на инфлационния пик през 2023 г., през 2024, 2025 и 2026 г. доходите продължиха да растат със стабилни 9–12% годишно, изпреварвайки умерената инфлация от около 3% и връщайки усещането за реално забогатяване."
+  }
+}

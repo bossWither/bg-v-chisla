@@ -1,0 +1,83 @@
+{
+  "title": "България по региони: 28 области, различни реалности",
+  "source": {
+    "name": "Национален статистически институт (НСИ)",
+    "dataset": "Заплати по области (актуални наблюдения 2025–2026) & Преброяване 2021",
+    "url": "https://www.nsi.bg/bg/content/3930/%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B8-%D0%B8-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8",
+    "lastVerified": "2026-09-15"
+  },
+  "indicators": [
+    {
+      "id": "salary",
+      "name": "Средна месечна заплата (2025/2026 г.)",
+      "shortName": "Средна заплата",
+      "unitEUR": "€ / месец",
+      "unitBGN": "лв. / месец",
+      "period": "2025/2026 г.",
+      "nationalAverageEUR": 1424,
+      "nationalAverageBGN": 2785,
+      "nationalLabelEUR": "Средно за страната: 1 424 €",
+      "nationalLabelBGN": "Средно за страната: 2 785 лв.",
+      "description": "Средномесечно брутно възнаграждение на наетите лица в съответната област в евро (€) и лева.",
+      "methodologicalNote": "Преизчислено в евро по фиксиран курс 1 EUR = 1.95583 BGN. Отразява високата концентрация на IT, финансови и управленски услуги в София, енергетиката в Стара Загора и Козлодуй (Враца)."
+    },
+    {
+      "id": "population_change",
+      "name": "Демографска промяна (2011 – 2021 г.)",
+      "shortName": "Спад / Ръст на населението",
+      "unitEUR": "%",
+      "unitBGN": "%",
+      "period": "Преброяване 2011 – 2021 г.",
+      "nationalAverageEUR": -11.5,
+      "nationalAverageBGN": -11.5,
+      "nationalLabelEUR": "Общо за страната: -11.5%",
+      "nationalLabelBGN": "Общо за страната: -11.5%",
+      "description": "Процентно изменение на постоянното население между Преброяване 2011 и Преброяване 2021.",
+      "methodologicalNote": "Единствената област с положителен прираст е София (+1.2%). В регионите от Северозапада и граничните области спадът надхвърля 20-25%."
+    },
+    {
+      "id": "housing_affordability",
+      "name": "Цени на жилища: Колко месечни заплати струва 1 кв.м?",
+      "shortName": "Достъпност на жилища",
+      "unitEUR": "месечни заплати / 1 кв.м",
+      "unitBGN": "месечни заплати / 1 кв.м",
+      "period": "2025/2026 г.",
+      "nationalAverageEUR": 1.1,
+      "nationalAverageBGN": 1.1,
+      "nationalLabelEUR": "Средно за страната: 1.1 заплати за кв.м",
+      "nationalLabelBGN": "Средно за страната: 1.1 заплати за кв.м",
+      "description": "Колко цели средномесечни местни заплати са нужни на човек в съответната област, за да си купи 1 кв.м жилищна площ.",
+      "methodologicalNote": "Показва къде жилищата са най-достъпни спрямо местните доходи. Във Видин и Силистра 1 кв.м струва около 0.6–0.7 заплати, докато в морските градове и София надхвърля 1.1–1.25 заплати."
+    }
+  ],
+  "regions": [
+    { "code": "SOF", "name": "София (столица)", "salaryEUR": 1980, "salaryBGN": 3872, "populationChange": 1.2, "population2021": 1307439, "sqmPriceEUR": 2250, "salaryPerSqmMonths": 1.14 },
+    { "code": "VAR", "name": "Варна", "salaryEUR": 1320, "salaryBGN": 2581, "populationChange": -5.7, "population2021": 432198, "sqmPriceEUR": 1650, "salaryPerSqmMonths": 1.25 },
+    { "code": "SFO", "name": "София (област)", "salaryEUR": 1310, "salaryBGN": 2562, "populationChange": -6.8, "population2021": 232794, "sqmPriceEUR": 1150, "salaryPerSqmMonths": 0.88 },
+    { "code": "SZR", "name": "Стара Загора", "salaryEUR": 1305, "salaryBGN": 2552, "populationChange": -9.8, "population2021": 296507, "sqmPriceEUR": 1100, "salaryPerSqmMonths": 0.84 },
+    { "code": "VRC", "name": "Враца", "salaryEUR": 1290, "salaryBGN": 2522, "populationChange": -18.7, "population2021": 152813, "sqmPriceEUR": 850, "salaryPerSqmMonths": 0.66 },
+    { "code": "PDV", "name": "Пловдив", "salaryEUR": 1260, "salaryBGN": 2464, "populationChange": -4.3, "population2021": 634497, "sqmPriceEUR": 1450, "salaryPerSqmMonths": 1.15 },
+    { "code": "GAB", "name": "Габрово", "salaryEUR": 1200, "salaryBGN": 2347, "populationChange": -21.9, "population2021": 98387, "sqmPriceEUR": 800, "salaryPerSqmMonths": 0.67 },
+    { "code": "RSE", "name": "Русе", "salaryEUR": 1160, "salaryBGN": 2268, "populationChange": -17.2, "population2021": 193483, "sqmPriceEUR": 1050, "salaryPerSqmMonths": 0.91 },
+    { "code": "BGS", "name": "Бургас", "salaryEUR": 1150, "salaryBGN": 2249, "populationChange": -6.1, "population2021": 380286, "sqmPriceEUR": 1350, "salaryPerSqmMonths": 1.17 },
+    { "code": "SHU", "name": "Шумен", "salaryEUR": 1130, "salaryBGN": 2210, "populationChange": -13.4, "population2021": 151465, "sqmPriceEUR": 950, "salaryPerSqmMonths": 0.84 },
+    { "code": "RAZ", "name": "Разград", "salaryEUR": 1110, "salaryBGN": 2171, "populationChange": -19.4, "population2021": 103223, "sqmPriceEUR": 750, "salaryPerSqmMonths": 0.68 },
+    { "code": "VTN", "name": "Велико Търново", "salaryEUR": 1105, "salaryBGN": 2161, "populationChange": -18.1, "population2021": 207551, "sqmPriceEUR": 1100, "salaryPerSqmMonths": 1.00 },
+    { "code": "PAZ", "name": "Пазарджик", "salaryEUR": 1090, "salaryBGN": 2132, "populationChange": -16.4, "population2021": 229814, "sqmPriceEUR": 920, "salaryPerSqmMonths": 0.84 },
+    { "code": "TGV", "name": "Търговище", "salaryEUR": 1060, "salaryBGN": 2073, "populationChange": -17.0, "population2021": 98144, "sqmPriceEUR": 720, "salaryPerSqmMonths": 0.68 },
+    { "code": "DOB", "name": "Добрич", "salaryEUR": 1050, "salaryBGN": 2053, "populationChange": -21.4, "population2021": 150146, "sqmPriceEUR": 800, "salaryPerSqmMonths": 0.76 },
+    { "code": "LOV", "name": "Ловеч", "salaryEUR": 1040, "salaryBGN": 2034, "populationChange": -22.5, "population2021": 116394, "sqmPriceEUR": 750, "salaryPerSqmMonths": 0.72 },
+    { "code": "PVN", "name": "Плевен", "salaryEUR": 1035, "salaryBGN": 2024, "populationChange": -17.8, "population2021": 226120, "sqmPriceEUR": 980, "salaryPerSqmMonths": 0.95 },
+    { "code": "JAM", "name": "Ямбол", "salaryEUR": 1030, "salaryBGN": 2014, "populationChange": -17.3, "population2021": 109693, "sqmPriceEUR": 790, "salaryPerSqmMonths": 0.77 },
+    { "code": "SLV", "name": "Сливен", "salaryEUR": 1020, "salaryBGN": 1995, "populationChange": -13.9, "population2021": 172690, "sqmPriceEUR": 820, "salaryPerSqmMonths": 0.80 },
+    { "code": "MON", "name": "Монтана", "salaryEUR": 1010, "salaryBGN": 1975, "populationChange": -20.6, "population2021": 119974, "sqmPriceEUR": 710, "salaryPerSqmMonths": 0.70 },
+    { "code": "KRZ", "name": "Кърджали", "salaryEUR": 1005, "salaryBGN": 1965, "populationChange": -7.8, "population2021": 141177, "sqmPriceEUR": 850, "salaryPerSqmMonths": 0.85 },
+    { "code": "PER", "name": "Перник", "salaryEUR": 1000, "salaryBGN": 1956, "populationChange": -15.8, "population2021": 114162, "sqmPriceEUR": 950, "salaryPerSqmMonths": 0.95 },
+    { "code": "HSK", "name": "Хасково", "salaryEUR": 980, "salaryBGN": 1917, "populationChange": -14.6, "population2021": 211565, "sqmPriceEUR": 800, "salaryPerSqmMonths": 0.82 },
+    { "code": "SLS", "name": "Силистра", "salaryEUR": 975, "salaryBGN": 1907, "populationChange": -22.3, "population2021": 97770, "sqmPriceEUR": 620, "salaryPerSqmMonths": 0.64 },
+    { "code": "KNL", "name": "Кюстендил", "salaryEUR": 965, "salaryBGN": 1887, "populationChange": -21.2, "population2021": 111736, "sqmPriceEUR": 750, "salaryPerSqmMonths": 0.78 },
+    { "code": "SML", "name": "Смолян", "salaryEUR": 955, "salaryBGN": 1868, "populationChange": -21.1, "population2021": 96284, "sqmPriceEUR": 780, "salaryPerSqmMonths": 0.82 },
+    { "code": "VID", "name": "Видин", "salaryEUR": 950, "salaryBGN": 1858, "populationChange": -25.4, "population2021": 75408, "sqmPriceEUR": 650, "salaryPerSqmMonths": 0.68 },
+    { "code": "BLG", "name": "Благоевград", "salaryEUR": 920, "salaryBGN": 1799, "populationChange": -10.2, "population2021": 292227, "sqmPriceEUR": 950, "salaryPerSqmMonths": 1.03 }
+  ]
+}
